@@ -1,0 +1,72 @@
+* {padding:0px;margin : 0px;}
+body {
+	text-align: center;
+	background-color: #2b6393;
+
+	
+}
+
+/*Declaracion de nuevos elementos HTML5 */
+header,article, aside, hgroup, nav,
+ footer, section, figure, figcaption 
+ { display : block; } 
+
+#cont-prin {
+ 	float: left;
+ }
+
+
+#cont-prin div{
+	overflow: hidden;	
+	display: inline-block;
+	width: 130px; 
+	height: 50px;
+    margin: 20px; 
+    padding: 10px; 
+    border:1px solid #000000;
+    background-color: gray;
+}
+#cont-prin div:hover{
+    width: 150px;     
+	height: 350px;
+    margin: 20px; 
+    padding: 10px; 
+    border:1px solid #000000;
+    background-color: gray;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside div{
+    width: 200px; 
+    margin: 10px;
+    margin-top: 20px; 
+    padding: 10px; 
+    float:right;
+    border:1px solid #000000;
+    background-color: orange;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	    margin: 20px; 
+        padding: 10px; 
+        border:1px solid #000000;
+        background-color: gray;
+}
+
+footer { 
+        clear:both;
+	    margin: 20px; 
+        padding: 10px; 
+        border:1px solid #000000;
+        background-color: gray;
+ }
+
+
+
