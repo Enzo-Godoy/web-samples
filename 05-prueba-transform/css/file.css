@@ -1,0 +1,104 @@
+* {padding:0px;margin : 0px;}
+body {
+	text-align: center;
+	background-color: #2b6393;
+
+	
+}
+
+/*Declaracion de nuevos elementos HTML5 */
+header,article, aside, hgroup, nav,
+ footer, section, figure, figcaption 
+ { display : block; } 
+
+/*
+ #cabecera{
+ 		background-color: #0080ff;
+ 		border: 1px solid #999999;
+ 		padding: 20px;
+ 		margin-left: 20%;
+ 		margin-right: 20%;
+}
+*/ 
+
+#principal  {
+	display: block;
+	width: 500px;
+	margin : 50px auto;
+	padding:  15px; 
+	text-align:  center; 
+	border: 1px solid #999999;
+	background: #DDDDDD;
+
+	-moz-transition : -moz-transform 1s ease-in-out 0.5s; 	
+	-webkit-transition : -webkit-transform 1s ease-in-out 0.5s; 
+
+
+}
+
+#principal:hover {
+
+	-moz-transform: skew(60deg);
+	-webkit-transform: skew(60deg);
+}
+
+#menu {
+	background: #CCCCCC;
+	padding: 5px 15px;
+	text-align: center;
+}
+
+#menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+
+#menu li:hover {
+	opacity:0.7;
+	background-color: orange;
+	border-radius:2px;
+	padding:3px;
+}
+
+
+
+
+ #pie { 
+ 	clear:both;
+ 	text-align: left;
+ 	padding:20px;
+ 	border-top: 10px solid #999999;
+ 	margin-bottom: 10px;
+}
+
+#pie a  {
+	color: black;
+} 
+
+
+
+time {
+	color:#999999;
+
+}
+
+figcaption { 
+	font: italic 14px verdana, sans-serif;
+ }
+
+ footer figure { 
+ 	display: inline-block;
+ 	left: 40%;
+ 	margin-left: 550px;
+  
+}
+
+footer address { 
+ 	display: inline-block;
+ 	left: 40%;
+  
+}
+
+
