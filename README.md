@@ -1,9 +1,9 @@
 # Web-Samples 
- The project it's a collection of sample with different concepts involved in Layout.
+ The project it's a collection of samples with different concepts involved in Layout.
 
 ## Installation 
 	
-	You don't need more than a brower and a code edit (Sublime - Bracket - Notepad++ )
+	You don't need more than a browser and a code edit (Sublime - Bracket - Notepad++ )
 	
 	
 	
